@@ -1,9 +1,8 @@
 import React from "react";
-import { Link } from "react-router-dom";
-const About = () => {
+const About = (props) => {
   return (
     <div>
-      <h1>Hello, I am about page</h1>
+      <h1>Hello, I am {props.name} page</h1>
     </div>
   );
 };
